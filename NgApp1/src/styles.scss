@@ -1,0 +1,26 @@
+/* You can add global styles to this file, and also import other style files */
+
+// ------------- Bootstrap Imports -------------------
+// NOTE: import only the files we need from bootstrap in order to keep our build smaller.
+//
+
+// Overrides
+// If you want to override any of bootstraps defaults, do it now before import.
+
+// Required
+/*@import "~bootstrap/scss/functions";
+@import "~bootstrap/scss/variables";
+@import "~bootstrap/scss/mixins";
+@import "~bootstrap/scss/reboot";
+@import "~bootstrap/scss/tooltip";
+@import "~bootstrap/scss/dropdown";
+@import "~bootstrap/scss/forms";
+@import "~bootstrap/scss/utilities";
+@import "~bootstrap/scss/input-group";*/
+@import "~bootstrap/scss/bootstrap";
+
+// -------------- End Bootstrap Imports --------------
+
+@import "~font-awesome/css/font-awesome.css";
+@import "~app/modules/list-search/list-search.component.scss";
+

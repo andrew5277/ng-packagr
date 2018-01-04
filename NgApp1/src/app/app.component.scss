@@ -1,0 +1,12 @@
+@import "./node_modules/bootstrap/scss/mixins/_breakpoints.scss";
+/*@include media-breakpoint-up(sm)
+  not working 
+*/
+@media (min-width: 768px) {
+  div.box, section.box {
+    margin: 10px 0 10px 0;
+    border: 1px solid #CCC;
+    padding: 0px 20px 10px 20px;
+    border-radius: 5px 5px 5px 5px;
+  }
+}
